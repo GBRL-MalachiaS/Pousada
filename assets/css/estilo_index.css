@@ -1,0 +1,218 @@
+/*reset de padding e margin e configurações globais do css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Topo fixado  */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Tamanho do container do topo */
+.container-topo {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #494949;
+}
+
+.title,
+.menu {
+    flex: 1;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.title a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #494949;
+}
+
+.title span {
+    color: rgb(40, 131, 250);
+}
+
+/* Estilo das ancoras */
+.link-topo {
+    margin: 10px;
+    text-decoration: none;
+    color: #494949;
+    font-size: 20px;
+}
+
+/* Define o fundo do container principal /
+E centraliza a div interna do conteiner principal */
+.container-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    background: url('../img/img-fundo.jpg') no-repeat fixed center center / cover;
+}
+
+/* Centraliza os elementos do banner-texto 
+define a cor do fundo a transluccides do card*/
+.banner-texto {
+    border: #fff 1px solid;
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(44, 162, 135, 0.75);
+    border-radius: 10px;
+    flex-basis: 600px;
+
+}
+
+/* Estiliza o Titulo banner*/
+.banner-titulo {
+    font-size: 30px;
+    color: #fff;
+
+}
+
+/* Estiliza o paragrafo banner */
+.banner-paragrafo {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Centraliza os titulos do conteudo */
+.quarto-titulo,
+.rota-titulo,
+.info-sobre {
+    text-align: center;
+    color: #494949;
+}
+
+
+/* Estiza os titulos do conteudo */
+.quarto-titulo h3,
+.rota-titulo h3,
+.info-sobre h3 {
+    padding: 45px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+/* Estiliza os paragrafos do conteudo */
+.quarto-titulo p,
+.rota-titulo p,
+.info-sobre p {
+    line-height: 50px;
+    font-size: 18px;
+}
+
+/* Ajusta o tamanho do card do quarto */
+.container-card-quarto {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Centraliza o texto do card */
+.card-quarto {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Ajusta o tamanho da imagem */
+.card-quarto img {
+    width: 350px;
+    height: 250px;
+}
+
+/* Ajusta o titulo dentro do card */
+.card-quarto h3 {
+    padding: 30px;
+    border-bottom: 3px solid rgba(44, 162, 135, 255);
+}
+
+/* Estiliza a ancora do card dos quartos */
+.card-quarto a {
+    text-decoration: none;
+    color: #494949;
+}
+
+/* Da espaçamento interno superiro no iframe */
+.container-rota iframe {
+    padding-top: 55px;
+}
+
+/* Card informações sobre a pousada */
+.card-info{
+    margin: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-img{
+    width: 150px;
+    height: 125px;
+}
+
+.card{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+  
+    line-height: 30px;
+}
+
+footer{
+    background-color:#53987c;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    color: #fff;
+}
+
+.container-rodape{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.card-rodape{
+    
+    height: 100px;
+    width: 250px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-rodape img{
+    width: 50px;
+    height: 50px;
+}
+
+.card-rodape a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.rodape-copy{
+    width:65%;
+    text-align: center;
+    border-top: 3px solid #488c70;
+    padding: 80px;
+}

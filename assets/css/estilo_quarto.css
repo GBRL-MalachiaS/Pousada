@@ -1,0 +1,173 @@
+/* Reset de padding e margin e configurações globais do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Topo fixado */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Tamanho do container do topo */
+.container-topo {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #494949;
+}
+
+.title,
+.menu {
+    flex: 1;
+    text-align: center;
+    font-weight: normal;
+}
+
+.title a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #494949;
+}
+
+.title span {
+    color: rgb(40, 131, 250);
+}
+
+/* Estilo das âncoras */
+.link-topo {
+    margin: 10px;
+    text-decoration: none;
+    color: #494949;
+    font-size: 20px;
+}
+
+/* Banner top, focado no topo da imagem de fundo */
+.banner-topo {
+    background-image: url("../img/img-fundo.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    height: 250px;
+}
+
+/* Container dos títulos apresentados no conteúdo */
+.container-titulo {
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+}
+
+/* Estilização dos títulos apresentados no conteúdo */
+.titulo {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Estilização dos parágrafos abaixo dos títulos */
+.paragrafo {
+    font-size: 18px;
+}
+
+/* Centraliza o box-card, da imagem */
+.box-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+/* Ajusta o espaçamento entre as imagens */
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 55%;
+}
+
+/* Ajusta o tamanho da imagem */
+.card-img {
+    width: 300px;
+    height: 250px;
+}
+
+.sobre-titulo {
+    text-align: center;
+}
+
+/* Estilo das listas de informações sobre o quarto */
+.sobre-quarto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-lista {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    max-width: 1024px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lista li {
+    font-size: 16px;
+    width: 230px;
+}
+
+/* Container rodapé */
+footer {
+    background-color: #53987c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.container-rodape {
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.card-rodape {
+    height: 100px;
+    width: 250px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-rodape img {
+    width: 50px;
+    height: 50px;
+}
+
+.card-rodape a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.rodape-copy {
+    width: 65%;
+    text-align: center;
+    border-top: 3px solid #488c70;
+    padding: 80px;
+}
